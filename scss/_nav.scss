@@ -1,0 +1,27 @@
+//botonera
+
+#botonera {
+    ul {
+        li {
+            a {
+                color: rgb(224, 62, 62);
+                font-family: $mainFont;
+                background-image: linear-gradient(currentColor, currentColor);
+   		        background-position: 0% 100%;
+    	        background-repeat: no-repeat;
+    	        background-size: 0% 2px;
+    	        transition: background-size .3s;
+            }
+        }
+                
+        a:hover {
+            color: rgb(219, 171, 10);
+            font-weight: 600;
+            background-size: 100% 2px;            
+        }
+    }
+}
+
+.card-body {
+    background-image: linear-gradient(to right, rgb(236, 215, 215), rgb(205, 228, 152));
+}

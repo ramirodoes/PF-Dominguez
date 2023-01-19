@@ -5,3 +5,33 @@ body{
     background-position-x: center;
     background-position-y: top;
 }
+
+p {
+    font-family: $mainFont;
+    color: $textColor;
+    text-align: center;
+    figcaption {
+        font-family: $mainFont;
+        color: white;        
+    }
+}
+
+//mixins
+
+@mixin textos ($font, $color, $align){
+    font-family: $font;
+    color: $color;
+    text-align: $align;
+    outline: thick ridge white;
+    outline-style: groove;
+}
+
+h1 {
+    @include textos ($mainFont, $textColor, center);
+}
+
+h2, h3, h4 {
+    @include textos($mainFont, $textColor, center);
+    outline: none;
+    outline-style: none;
+}
