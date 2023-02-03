@@ -62,10 +62,6 @@ h2, .h2, h3, .h3, h4, .h4 {
   font-family: sans-serif;
 }
 
-body {
-  background: #f0f0f0;
-}
-
 .container {
   width: 100%;
   max-width: 700px;
@@ -79,7 +75,7 @@ body {
 .lbl-menu label {
   display: inline-block;
   padding: 20px;
-  color: #fff;
+  color: #ffffff;
   cursor: pointer;
   transition: all 400ms ease;
 }
@@ -98,7 +94,7 @@ body {
   visibility: hidden;
   transform: scale(0.9);
   padding: 30px;
-  background: #fff;
+  background: rgba(255, 255, 255, 0.368627451);
   padding-bottom: 40px;
 }
 .content div:after {
@@ -107,7 +103,7 @@ body {
   border-left: 10px solid transparent;
   border-right: 10px solid transparent;
   border-top: 10px solid transparent;
-  border-bottom: 10px solid #fff;
+  border-bottom: 10px solid rgba(255, 255, 255, 0.5058823529);
   bottom: 100%;
   left: 28px;
 }
@@ -131,6 +127,15 @@ body {
   opacity: 1;
   visibility: visible;
   transform: scale(1);
+}
+
+.video-container {
+  width: 100%;
+}
+
+.video {
+  width: 50%;
+  display: inline-block;
 }
 
 /*!

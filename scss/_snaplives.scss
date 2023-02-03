@@ -4,9 +4,7 @@
 	box-sizing: border-box;
 	font-family: sans-serif;
 }
-body {
-	background: #f0f0f0;
-}
+
 .container {
 	width: 100%;
 	max-width: 700px;
@@ -18,7 +16,7 @@ body {
 	label {
 		display: inline-block;
 		padding: 20px;
-		color: #fff;
+		color: #ffffff;
 		cursor: pointer;
 		transition: all 400ms ease;
 		&:hover {
@@ -36,7 +34,7 @@ body {
 		visibility: hidden;
 		transform: scale(0.90);
 		padding: 30px;
-		background: #fff;
+		background: #ffffff5e;
 		padding-bottom: 40px;
 		&:after {
 			position: absolute;
@@ -44,7 +42,7 @@ body {
 			border-left: 10px solid transparent;
 			border-right: 10px solid transparent;
 			border-top: 10px solid transparent;
-			border-bottom: 10px solid #fff;
+			border-bottom: 10px solid #ffffff81;
 			bottom: 100%;
 			left: 28px;
 		}
@@ -81,3 +79,11 @@ body {
 	}
 }
 
+.video-container {
+  width: 100%;
+}
+
+.video {
+  width: 50%;
+  display: inline-block;
+}
